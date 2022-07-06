@@ -4,9 +4,16 @@ body {
     padding: 0;
 }
 
-.first-section {
+h1 {
+    margin: 0;
+}
 
-    background-image: url(images/donation13.jpg);
+
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: -moz-linear-gradient(rgba(252, 237, 237, 0), rgba(17, 17, 16, 0.700)), url(images/donation-01.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -15,17 +22,38 @@ body {
     height: 100vh;
 }
 
+.first-division h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    color: #fff;
+}
+
+.first-division p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
 .first-color {
     color: rgb(253, 252, 250);
 }
 
 .link-button {
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 15px 35px;
     border-radius: 5px;
-    background-image: -moz-linear-gradient(rgb(255, 174, 0), rgb(228, 27, 27));
     font-weight: 700px;
     color: rgb(250, 244, 244);
+    background-color: #FF5959;
+
+
 }
 
 .first-division {
