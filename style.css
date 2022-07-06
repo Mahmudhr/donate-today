@@ -304,3 +304,47 @@ h2 {
     color: #D9DBE1;
     margin-bottom: 0%;
 }
+
+.phase {
+    display: flex;
+    width: 50%;
+    height: 1hv;
+    margin: 0;
+    padding: 0;
+}
+
+.final-section-button {
+    margin-top: 40px;
+}
+
+.last-division h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 79px;
+    text-align: center;
+    color: #fff;
+}
+
+.last-division p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.last-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(252, 237, 237, 0), rgba(17, 17, 16, 0.700)), url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    width: 100%;
+    padding: 120px 0;
+}
